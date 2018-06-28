@@ -1,0 +1,10 @@
+a:focus {
+  outline: none;
+  border: 1px solid black;
+}
+
+a {
+  display: inline-block;
+  background: lightblue;
+  padding: 10px;
+}

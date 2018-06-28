@@ -1,0 +1,9 @@
+html {
+  font-size: 10px;
+}
+.outer-wrap {
+  font-size: 2rem;
+}
+.inner-wrap {
+  font-size: 1em;
+}

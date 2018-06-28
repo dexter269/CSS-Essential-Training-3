@@ -1,0 +1,32 @@
+/*
+  rem calculation:
+  desired font-size % base font-size
+*/
+
+html {
+  font-size: 2vw; /* equal to 16px and 100% */
+}
+body {
+  font-size: 1.25rem; /* equivalent to 20px */
+}
+h1 {
+  font-size: 2.1875rem; /* equivalent to 35px */
+}
+h2 {
+  font-size: 1.875rem; /* equivalent to 30px */
+}
+.footnote {
+  font-size: 0.9375rem; /* equivalent to 15px */
+}
+
+
+/* screens 800px and smaller */
+@media (max-width: 600px) {
+  /* 25% smaller */
+  html {
+    font-size: 0.75rem;
+  }
+  .footnote {
+    font-size: 16px;
+  }
+}

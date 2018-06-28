@@ -1,0 +1,26 @@
+/* No transition */
+.color {
+  background-color: lightblue;
+}
+.color:hover {
+  background-color: white;
+}
+
+/* With transition */
+.color-transition {
+  background-color: lightblue;
+  transition: background-color 1s ease-in;
+}
+.color-transition:hover {
+  background-color: white;
+}
+
+/* General styles */
+span {
+  font-family: sans-serif;
+  margin: 10px 0;
+  border: 1px solid black;
+  margin: 10px 5px;
+  padding: 10px;
+  display: inline-block;
+}

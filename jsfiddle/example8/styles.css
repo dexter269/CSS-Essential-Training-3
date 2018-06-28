@@ -1,0 +1,11 @@
+.circle {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background: red;
+
+  float: left;
+  /* border-radius: 50%; */
+  shape-outside: circle();
+  clip-path: circle();
+}

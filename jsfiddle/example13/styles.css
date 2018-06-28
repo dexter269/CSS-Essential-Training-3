@@ -1,0 +1,19 @@
+.example-class {
+  color: red;
+}
+#example-id {
+  color: blue;
+}
+[src] {
+  border: 5px solid black;
+}
+[type="text"] {
+  border: 5px solid red;
+}
+[type="password"] {
+  border: 5px solid blue;
+}
+[href*="http://christinatruong.com"] {
+  text-decoration: none;
+  color: black;
+}

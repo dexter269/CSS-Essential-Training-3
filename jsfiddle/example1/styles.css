@@ -1,0 +1,6 @@
+.sticky {
+  position: sticky;
+  top: 10px; /* element becomes fixed once its position from the viewport's top is 10px or more from the top */
+  padding: 10px;
+  background-color: lightblue;
+}
